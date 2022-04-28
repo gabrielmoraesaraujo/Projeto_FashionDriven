@@ -1,0 +1,10 @@
+.corpo{
+    display: flex;
+    flex-direction: column;
+}
+
+.topo{
+    background-color: #404EED;
+    padding: 16px 80px;
+
+}
