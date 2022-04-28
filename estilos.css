@@ -1,10 +1,92 @@
 .corpo{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .topo{
     background-color: #404EED;
     padding: 16px 80px;
 
+}
+.containerPrimario{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+ 
+}
+.containerEsquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.mini-container{    
+    width: 70%;
+    margin-right: 30px;
+    margin: 3px;
+}
+.Linha{
+    display: flex;
+    justify-content: space-between;
+    margin: 3px;
+    padding: 3px;
+       
+}
+.ItemCaixa{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: #F2F2F2;
+    border-radius: 100%;
+    border-color:#C4C4C4;
+    border-style: solid;
+    border-width: 0.5px;    
+}
+.selecionado{
+    border-color: #404EED;
+    border-width: 3px;
+}
+
+.Referencia{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 32px 0px 23px 200px;
+}
+
+input{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #F2F2F2;
+}
+
+.containerDireita{
+    background-color: #404EED;
+    width: 50%;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: #232323;
+}
+
+.ItemCaixa img{
+   
+    width: 80px;
+    height: 80px;
 }

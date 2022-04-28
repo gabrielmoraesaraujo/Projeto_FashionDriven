@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="estilos.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
@@ -15,7 +19,74 @@
         <div class="topo">
             <img src="imagens/Logo.png" alt="">
         </div>
-        <div class="containerPrimario"></div>
+
+        <div class="containerPrimario">
+            <div class="containerEsquerda">
+                    <div class="mini-container">
+                        <p>Escolha o modelo</p>
+                        <div class="Linha">
+                            <div class="ItemCaixa" onclick="selection(this)">
+                                <img src="imagens/tshirt.png" alt="">
+                                <p>T-shirt</p>
+                            </div>
+                            <div class="ItemCaixa" onclick="selection(this)">
+                                <img src="imagens/Camiseta.png" alt="">
+                                <p>Camiseta</p>
+                            </div>
+                            <div class="ItemCaixa" onclick="selection(this)">
+                                <img src="imagens/Mangalonga.png" alt="">
+                                <p>Manga longa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mini-container">
+                        <p>Escolha a gola </p>
+                        <div class="Linha">
+                            <div class="ItemCaixa" onclick="selection(this)">
+                                <img src="imagens/GolaV.png" alt="">
+                                <p>Gola V</p>
+                            </div>
+                            <div class="ItemCaixa" onclick="selection(this)">
+                                <img src="imagens/GolaRedonda.png" alt="">
+                                <p>Gola Redonda</p>
+                            </div>
+                            <div class="ItemCaixa" onclick="selection(this)">
+                                <img src="imagens/GolaPolo.png" alt="">
+                                <p>Gola polo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mini-container">
+                        <p>Escolha o tecido</p>
+                        <div class="Linha">
+                            <div class="ItemCaixa" onclick="selection(this)">
+                                <img src="imagens/Seda.png" alt="">
+                                <p>Seda</p>
+                            </div>
+                            <div class="ItemCaixa" onclick="selection(this)">
+                                <img src="imagens/Algodão.png" alt="">
+                                <p>Algodão</p>
+                            </div>
+                            <div class="ItemCaixa" onclick="selection(this)">
+                                <img src="imagens/Poliester.png" alt="">
+                                <p>Poliéster</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="Referencia">
+                    <p>Imagem de referência</p>
+                    <input type="text" placeholder="Insira o link">
+                </div>
+
+                <button>Confirmar pedido</button>
+                
+            </div>
+
+            <div class="containerDireita">
+                <img src="imagens/ilustração.png" alt="">
+            </div>
+        </div>
         <div class="containerSecundario"></div>
 
 
