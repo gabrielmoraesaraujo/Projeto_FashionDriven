@@ -4,15 +4,31 @@ function iniciarPagina(){
 
 }
 
-function selection(elemento){
-    const itemSelecionado = document.querySelector('.Linha .selecionado');
+function selectionModelo(elemento){
+    const itemSelecionado = document.querySelector('.Modelo .selecionado');
 
     if(itemSelecionado!==null){
         itemSelecionado.classList.remove('selecionado');
     }
-
     elemento.classList.add('selecionado');
+}
 
+function selectionGola(elemento){
+    const itemSelecionado = document.querySelector('.Gola .selecionado');
+
+    if(itemSelecionado!==null){
+        itemSelecionado.classList.remove('selecionado');
+    }
+    elemento.classList.add('selecionado');
+}
+
+function selectionTecido(elemento){
+    const itemSelecionado = document.querySelector('.Tecido .selecionado');
+
+    if(itemSelecionado!==null){
+        itemSelecionado.classList.remove('selecionado');
+    }
+    elemento.classList.add('selecionado');
 }
 
 iniciarPagina();

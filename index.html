@@ -24,62 +24,81 @@
             <div class="containerEsquerda">
                     <div class="mini-container">
                         <p>Escolha o modelo</p>
-                        <div class="Linha">
-                            <div class="ItemCaixa" onclick="selection(this)">
-                                <img src="imagens/tshirt.png" alt="">
-                                <p>T-shirt</p>
+                        <div class="Linha Modelo">
+                            <div class="caixaExterna">
+                                <div class="Caixa" onclick="selectionModelo(this)">
+                                    <img src="imagens/tshirt.png" alt="">
+                                </div>
+                                    <p>T-shirt</p>
                             </div>
-                            <div class="ItemCaixa" onclick="selection(this)">
+                           <div class="caixaExterna">
+                            <div class="Caixa" onclick="selectionModelo(this)">
                                 <img src="imagens/Camiseta.png" alt="">
+                            </div>
                                 <p>Camiseta</p>
+                           </div>
+                            <div class="caixaExterna">
+                                <div class="Caixa" onclick="selectionModelo(this)">
+                                    <img src="imagens/Mangalonga.png" alt="">
+                                </div>
+                                    <p>Manga longa</p>
                             </div>
-                            <div class="ItemCaixa" onclick="selection(this)">
-                                <img src="imagens/Mangalonga.png" alt="">
-                                <p>Manga longa</p>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="mini-container">
                         <p>Escolha a gola </p>
-                        <div class="Linha">
-                            <div class="ItemCaixa" onclick="selection(this)">
-                                <img src="imagens/GolaV.png" alt="">
-                                <p>Gola V</p>
+                        <div class="Linha Gola">
+                            <div class="caixaExterna">
+                                <div class="Caixa" onclick="selectionGola(this)">
+                                    <img src="imagens/GolaV.png" alt="">
+                                </div>
+                                    <p>Gola V</p>
                             </div>
-                            <div class="ItemCaixa" onclick="selection(this)">
-                                <img src="imagens/GolaRedonda.png" alt="">
-                                <p>Gola Redonda</p>
+                            <div class="caixaExterna">
+                                <div class="Caixa" onclick="selectionGola(this)">
+                                    <img src="imagens/GolaRedonda.png" alt="">
+                                </div>
+                                    <p>Gola Redonda</p>
                             </div>
-                            <div class="ItemCaixa" onclick="selection(this)">
-                                <img src="imagens/GolaPolo.png" alt="">
-                                <p>Gola polo</p>
-                            </div>
+                            <div class="caixaExterna">
+                                <div class="Caixa" onclick="selectionGola(this)">
+                                    <img src="imagens/GolaPolo.png" alt="">
+                                </div>
+                                    <p>Gola polo</p>
+                            </div>                            
                         </div>
                     </div>
                     <div class="mini-container">
                         <p>Escolha o tecido</p>
-                        <div class="Linha">
-                            <div class="ItemCaixa" onclick="selection(this)">
-                                <img src="imagens/Seda.png" alt="">
-                                <p>Seda</p>
+                        <div class="Linha Tecido">
+                            <div class="caixaExterna">
+                                <div class="Caixa" onclick="selectionTecido(this)">
+                                    <img class="diferente" src="imagens/Seda.png" alt="">
+                                </div>
+                                    <p>Seda</p> 
                             </div>
-                            <div class="ItemCaixa" onclick="selection(this)">
-                                <img src="imagens/Algodão.png" alt="">
-                                <p>Algodão</p>
+                            <div class="caixaExterna">
+                                <div class="Caixa" onclick="selectionTecido(this)">
+                                    <img src="imagens/Algodão.png" alt="">
+                                </div>
+                                    <p>Algodão</p>
                             </div>
-                            <div class="ItemCaixa" onclick="selection(this)">
-                                <img src="imagens/Poliester.png" alt="">
-                                <p>Poliéster</p>
-                            </div>
+                            <div class="caixaExterna">
+                                <div class="Caixa" onclick="selectionTecido(this)">
+                                    <img src="imagens/Poliester.png" alt="">
+                                </div>
+                                    <p>Poliéster</p>
+                            </div>                                                    
                         </div>
                     </div>
                 
                 <div class="Referencia">
                     <p>Imagem de referência</p>
-                    <input type="text" placeholder="Insira o link">
+                    <input type="text" placeholder="  Insira o link">
                 </div>
 
-                <button>Confirmar pedido</button>
+                <button class="buttonDesativado">Confirmar pedido</button>
                 
             </div>
 
