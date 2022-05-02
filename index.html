@@ -106,8 +106,9 @@
                     <p>Imagem de referência</p>
                     <input type="text" class="url" placeholder="  Insira o link">
                 </div>
-
-                <button class="buttonDesativado" onclick="ativarBotao()">Confirmar pedido</button>
+                <div class="botao">
+                    <button class="buttonDesativado">Confirmar pedido</button>
+                </div>              
                 
             </div>
 
@@ -117,12 +118,21 @@
         </div>
         <div class="containerSecundario">
 
+            <div class="caixaInferior">
+                <p>Últimos pedidos</p>
+                <ul class="novasEncomendas">
+                    
+                </ul>
+            </div>
+
 
         </div>
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://mock-api.driven.com.br/api/v4/shirts-api/shirts"></script>
     
-    
-    <script src="java.js"></script>
+    <script src="javafashion.js"></script>
 </body>
 </html>
