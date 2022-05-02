@@ -56,6 +56,19 @@
     width: 120px;
     height: 100%;
 }
+.escondido{
+    display: none;
+}
+
+.olhado{
+    background-color: white;
+}
+
+
+span{
+    background-color: #232323;
+    
+}
 .Caixa{
     
     background-color: #F2F2F2;
@@ -68,6 +81,7 @@
     margin: 10px 0px;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }

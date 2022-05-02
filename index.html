@@ -25,23 +25,26 @@
                     <div class="mini-container">
                         <p>Escolha o modelo</p>
                         <div class="Linha Modelo">
-                            <div class="caixaExterna">
+                            <div class="caixaExterna" >
                                 <div class="Caixa" onclick="selectionModelo(this)">
                                     <img src="imagens/tshirt.png" alt="">
+                                    <div class="escondido">t-shirt</div>
                                 </div>
-                                    <p>T-shirt</p>
+                                    <p class="name">T-shirt</p>
                             </div>
                            <div class="caixaExterna">
                             <div class="Caixa" onclick="selectionModelo(this)">
                                 <img src="imagens/Camiseta.png" alt="">
+                                <div class="escondido">top-tank</div>
                             </div>
-                                <p>Camiseta</p>
+                                <p class="name">Camiseta</p>
                            </div>
                             <div class="caixaExterna">
                                 <div class="Caixa" onclick="selectionModelo(this)">
                                     <img src="imagens/Mangalonga.png" alt="">
+                                    <div class="escondido">long</div>
                                 </div>
-                                    <p>Manga longa</p>
+                                    <p class="name">Manga longa</p>
                             </div>
                             
                         </div>
@@ -52,18 +55,21 @@
                             <div class="caixaExterna">
                                 <div class="Caixa" onclick="selectionGola(this)">
                                     <img src="imagens/GolaV.png" alt="">
+                                    <p class="escondido">v-neck</p>
                                 </div>
                                     <p>Gola V</p>
                             </div>
                             <div class="caixaExterna">
                                 <div class="Caixa" onclick="selectionGola(this)">
                                     <img src="imagens/GolaRedonda.png" alt="">
+                                    <p class="escondido">round</p>
                                 </div>
                                     <p>Gola Redonda</p>
                             </div>
                             <div class="caixaExterna">
                                 <div class="Caixa" onclick="selectionGola(this)">
                                     <img src="imagens/GolaPolo.png" alt="">
+                                    <p class="escondido">polo</p>
                                 </div>
                                     <p>Gola polo</p>
                             </div>                            
@@ -75,18 +81,21 @@
                             <div class="caixaExterna">
                                 <div class="Caixa" onclick="selectionTecido(this)">
                                     <img class="diferente" src="imagens/Seda.png" alt="">
+                                    <p class="escondido">silk</p> 
                                 </div>
                                     <p>Seda</p> 
                             </div>
                             <div class="caixaExterna">
                                 <div class="Caixa" onclick="selectionTecido(this)">
                                     <img src="imagens/Algodão.png" alt="">
+                                    <p class="escondido">cotton</p>
                                 </div>
                                     <p>Algodão</p>
                             </div>
                             <div class="caixaExterna">
                                 <div class="Caixa" onclick="selectionTecido(this)">
                                     <img src="imagens/Poliester.png" alt="">
+                                    <p class="escondido">polyester</p>
                                 </div>
                                     <p>Poliéster</p>
                             </div>                                                    
@@ -95,10 +104,10 @@
                 
                 <div class="Referencia">
                     <p>Imagem de referência</p>
-                    <input type="text" placeholder="  Insira o link">
+                    <input type="text" class="url" placeholder="  Insira o link">
                 </div>
 
-                <button class="buttonDesativado">Confirmar pedido</button>
+                <button class="buttonDesativado" onclick="ativarBotao()">Confirmar pedido</button>
                 
             </div>
 
@@ -106,13 +115,14 @@
                 <img src="imagens/ilustração.png" alt="">
             </div>
         </div>
-        <div class="containerSecundario"></div>
+        <div class="containerSecundario">
 
 
+        </div>
 
     </div>
     
-
+    
     <script src="java.js"></script>
 </body>
 </html>
